@@ -1869,11 +1869,11 @@ design rules under a new name.</description>
 <attribute name="MPN" value="MCP1316T-29LE/OT" x="25.87625" y="24.92375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SUPPLIER" value="Microchip" x="25.87625" y="24.92375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1332071" x="25.87625" y="24.92375" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="23.749" y="27.0256" size="0.6096" layer="27" rot="SR0"/>
+<attribute name="VALUE" x="23.749" y="27.0256" size="0.6096" layer="25" rot="SR0"/>
 </element>
 <element name="R10" library="rcl" package="R0805" value="10k" x="10.31875" y="8.5725" smashed="yes" rot="R90">
 <attribute name="NAME" x="11.7475" y="12.065" size="1.27" layer="25" rot="R180"/>
-<attribute name="VALUE" x="11.58875" y="5.55625" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="11.58875" y="5.55625" size="1.27" layer="25" rot="R180"/>
 </element>
 </elements>
 <signals>

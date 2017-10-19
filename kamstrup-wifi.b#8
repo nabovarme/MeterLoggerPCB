@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.00625" unitdist="inch" unit="inch" style="dots" multiple="1" display="no" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
+<grid distance="0.00625" unitdist="inch" unit="mm" style="dots" multiple="1" display="no" altdistance="0.0125" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -140,8 +140,8 @@
 <text x="1.46" y="39.37" size="0.8128" layer="25" rot="R90" align="center-left">VCC</text>
 <text x="4" y="39.37" size="0.8128" layer="25" rot="R90" align="center-left">TxD</text>
 <text x="6.54" y="39.37" size="0.8128" layer="25" rot="R90" align="center-left">RxD</text>
-<hole x="1.5" y="14" drill="2.1"/>
-<hole x="21.5" y="38.6" drill="2.1"/>
+<hole x="1.5" y="14" drill="2.2"/>
+<hole x="21.5" y="38.6" drill="2.2"/>
 <text x="21.74875" y="30.95625" size="1.016" layer="25" rot="R90" align="center-right">VCC</text>
 <text x="19.20875" y="30.95625" size="1.016" layer="25" rot="R90" align="center-right">TxD</text>
 <text x="16.66875" y="30.95625" size="1.016" layer="25" rot="R90" align="center-right">RxD</text>
