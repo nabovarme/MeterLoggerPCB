@@ -148,7 +148,7 @@
 <text x="16.66875" y="30.95625" size="1.016" layer="25" rot="R90" align="center-right">RxD</text>
 <text x="7.46125" y="18.89125" size="1.016" layer="25" ratio="10" rot="R270">ESP8266
 ESP-07</text>
-<text x="7.46125" y="29.68625" size="1.016" layer="25" ratio="15" rot="R270">v.1.2.4</text>
+<text x="7.46125" y="29.68625" size="1.016" layer="25" ratio="15" rot="R270">v.1.2.5</text>
 <text x="26.82875" y="30.95625" size="1.016" layer="25" rot="R90" align="center-right">GND</text>
 <text x="21.2725" y="75.565" size="1.27" layer="25" ratio="20" rot="R90" align="center">AC IN
 N   L</text>
