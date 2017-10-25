@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.0025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.005" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -148,9 +148,9 @@
 <text x="16.66875" y="30.95625" size="1.016" layer="25" rot="R90" align="center-right">RxD</text>
 <text x="7.46125" y="18.89125" size="1.016" layer="25" ratio="10" rot="R270">ESP8266
 ESP-07</text>
-<text x="7.46125" y="29.68625" size="1.016" layer="25" ratio="15" rot="R270">v.1.2.5</text>
+<text x="7.46125" y="29.68625" size="1.016" layer="25" ratio="15" rot="R270">v.1.2.6</text>
 <text x="26.82875" y="30.95625" size="1.016" layer="25" rot="R90" align="center-right">GND</text>
-<text x="21.2725" y="75.565" size="1.27" layer="25" ratio="20" rot="R90" align="center">AC IN
+<text x="20.7725" y="75.615" size="1.27" layer="25" ratio="20" rot="R90" align="center">AC IN
 N   L</text>
 <text x="27.6225" y="13.0175" size="1.016" layer="26" font="fixed" rot="MR0">Part            RS#
 C1, C2          766-1150
@@ -170,19 +170,19 @@ T1, T2          792-0709
 <wire x1="14.2875" y1="13.81125" x2="28.41625" y2="13.81125" width="0.1524" layer="26"/>
 <wire x1="28.41625" y1="13.81125" x2="28.41625" y2="29.845" width="0.1524" layer="26"/>
 <wire x1="14.2875" y1="29.845" x2="14.2875" y2="13.81125" width="0.1524" layer="26"/>
-<wire x1="13.49375" y1="80.01" x2="17.4625" y2="80.01" width="0.254" layer="25"/>
-<wire x1="17.4625" y1="80.01" x2="17.4625" y2="70.1675" width="0.254" layer="25"/>
-<wire x1="17.4625" y1="70.1675" x2="17.4625" y2="60.16625" width="0.254" layer="25"/>
-<wire x1="17.4625" y1="60.16625" x2="13.49375" y2="60.16625" width="0.254" layer="25"/>
-<wire x1="17.4625" y1="70.1675" x2="13.49375" y2="70.1675" width="0.254" layer="25"/>
-<wire x1="19.05" y1="80.01" x2="23.01875" y2="80.01" width="0.254" layer="25"/>
-<wire x1="19.05" y1="70.1675" x2="23.01875" y2="70.1675" width="0.254" layer="25"/>
-<wire x1="19.05" y1="80.01" x2="19.05" y2="70.1675" width="0.254" layer="25"/>
+<wire x1="12.99375" y1="80.06" x2="16.9625" y2="80.06" width="0.254" layer="25"/>
+<wire x1="16.9625" y1="80.06" x2="16.9625" y2="70.2175" width="0.254" layer="25"/>
+<wire x1="16.9625" y1="70.2175" x2="16.9625" y2="60.21625" width="0.254" layer="25"/>
+<wire x1="16.9625" y1="60.21625" x2="12.99375" y2="60.21625" width="0.254" layer="25"/>
+<wire x1="16.9625" y1="70.2175" x2="12.99375" y2="70.2175" width="0.254" layer="25"/>
+<wire x1="18.55" y1="80.06" x2="22.51875" y2="80.06" width="0.254" layer="25"/>
+<wire x1="18.55" y1="70.2175" x2="22.51875" y2="70.2175" width="0.254" layer="25"/>
+<wire x1="18.55" y1="80.06" x2="18.55" y2="70.2175" width="0.254" layer="25"/>
 <text x="27.305" y="83.97875" size="2.54" layer="25" ratio="15" rot="R180" align="top-left">MeterLogger</text>
 <rectangle x1="0.9525" y1="16.35125" x2="6.6675" y2="29.68625" layer="25"/>
-<text x="15.39875" y="75.40625" size="1.27" layer="25" ratio="20" rot="R270" align="center">L   N
+<text x="14.89875" y="75.45625" size="1.27" layer="25" ratio="20" rot="R270" align="center">L   N
 OUT 1</text>
-<text x="15.39875" y="65.24625" size="1.27" layer="25" ratio="20" rot="R270" align="center">L   N
+<text x="14.89875" y="65.29625" size="1.27" layer="25" ratio="20" rot="R270" align="center">L   N
 OUT 2</text>
 <text x="34.29" y="1.42875" size="1.016" layer="25" ratio="15" rot="R180">Christiania Nabovarme 2017</text>
 <text x="34.29" y="83.34375" size="1.27" layer="25" ratio="15" rot="R180" align="top-left">+power</text>
