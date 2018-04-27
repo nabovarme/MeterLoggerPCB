@@ -108,15 +108,19 @@
 <wire x1="31" y1="0" x2="31" y2="67" width="0" layer="20"/>
 <wire x1="31" y1="67" x2="0" y2="67" width="0" layer="20"/>
 <wire x1="0" y1="67" x2="0" y2="0" width="0" layer="20"/>
-<wire x1="5.76" y1="59.5" x2="29.76" y2="59.5" width="0.4064" layer="25"/>
-<wire x1="29.76" y1="59.5" x2="29.76" y2="8.5" width="0.4064" layer="25"/>
-<wire x1="29.76" y1="8.5" x2="5.76" y2="8.5" width="0.4064" layer="25"/>
-<wire x1="5.76" y1="8.5" x2="5.76" y2="59.5" width="0.4064" layer="25"/>
-<text x="2.54" y="63.5" size="1.778" layer="25" align="center-left">Nabovarme PSU</text>
+<wire x1="5.76" y1="65.85" x2="29.76" y2="65.85" width="0.4064" layer="25"/>
+<wire x1="29.76" y1="65.85" x2="29.76" y2="14.85" width="0.4064" layer="25"/>
+<wire x1="29.76" y1="14.85" x2="5.76" y2="14.85" width="0.4064" layer="25"/>
+<wire x1="5.76" y1="14.85" x2="5.76" y2="65.85" width="0.4064" layer="25"/>
+<text x="2.54" y="15.24" size="1.778" layer="25" rot="R90" align="center-left">Nabovarme PSU</text>
 <text x="1.27" y="58.42" size="1.27" layer="25">3.3V</text>
 <text x="1.27" y="50.8" size="1.27" layer="25" align="top-left">GND</text>
 <text x="30.48" y="1.27" size="1.778" layer="25" align="bottom-right">v.1.0
 2015</text>
+<text x="3.81" y="10.16" size="1.27" layer="25">L</text>
+<text x="8.89" y="10.16" size="1.27" layer="25">N</text>
+<text x="15.24" y="10.16" size="1.27" layer="25">N</text>
+<text x="20.32" y="10.16" size="1.27" layer="25">L</text>
 </plain>
 <libraries>
 <library name="SparkFun (old)">
@@ -373,58 +377,60 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="N" library="SparkFun (old)" package="1X01_2MM" value="M01PTH_2MM" x="15.24" y="10.26" smashed="yes">
-<attribute name="NAME" x="15.1638" y="12.0888" size="1.27" layer="25"/>
+<element name="N" library="SparkFun (old)" package="1X01_2MM" value="M01PTH_2MM" x="15.24" y="16.61" smashed="yes">
+<attribute name="NAME" x="15.1638" y="18.4388" size="1.27" layer="25"/>
 </element>
-<element name="L" library="SparkFun (old)" package="1X01_2MM" value="M01PTH_2MM" x="20.28" y="10.26" smashed="yes">
-<attribute name="NAME" x="20.2038" y="12.0888" size="1.27" layer="25"/>
+<element name="L" library="SparkFun (old)" package="1X01_2MM" value="M01PTH_2MM" x="20.28" y="16.61" smashed="yes">
+<attribute name="NAME" x="20.2038" y="18.4388" size="1.27" layer="25"/>
 </element>
-<element name="3.3V" library="SparkFun (old)" package="1X01_2MM" value="M01PTH_2MM" x="12.72" y="57.76" smashed="yes">
-<attribute name="NAME" x="11.3738" y="54.5088" size="1.27" layer="25"/>
+<element name="3.3V" library="SparkFun (old)" package="1X01_2MM" value="M01PTH_2MM" x="12.72" y="64.11" smashed="yes">
+<attribute name="NAME" x="11.3738" y="60.8588" size="1.27" layer="25"/>
 </element>
-<element name="GND" library="SparkFun (old)" package="1X01_2MM" value="M01PTH_2MM" x="22.8" y="57.76" smashed="yes">
-<attribute name="NAME" x="21.4538" y="54.5088" size="1.27" layer="25"/>
+<element name="GND" library="SparkFun (old)" package="1X01_2MM" value="M01PTH_2MM" x="22.8" y="64.11" smashed="yes">
+<attribute name="NAME" x="21.4538" y="60.8588" size="1.27" layer="25"/>
 </element>
 <element name="85-265VAC" library="SparkFun (old)" package="1X02_LONGPADS" value="" x="20.32" y="5.08" smashed="yes" rot="R180">
 <attribute name="NAME" x="17.78" y="2.54" size="1.27" layer="25" rot="R180" align="bottom-center"/>
 </element>
 <element name="JP2" library="SparkFun (old)" package="1X02_LONGPADS" value="" x="2.54" y="57.15" smashed="yes" rot="R270"/>
-<element name="U$1" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="" x="26.67" y="63.5"/>
-<element name="85-265VAC1" library="SparkFun (old)" package="1X02_LONGPADS" value="" x="1.27" y="-5.08"/>
+<element name="U$1" library="SparkFun-Aesthetics" package="OSHW-LOGO-M" value="" x="2.54" y="63.5" rot="R90"/>
+<element name="85-265VAC1" library="SparkFun (old)" package="1X02_LONGPADS" value="" x="3.81" y="5.08" smashed="yes"/>
 </elements>
 <signals>
 <signal name="N$1">
 <contactref element="85-265VAC" pad="1"/>
 <contactref element="L" pad="1"/>
-<wire x1="20.32" y1="5.08" x2="20.32" y2="10.22" width="2.54" layer="16"/>
-<wire x1="20.32" y1="10.22" x2="20.28" y2="10.26" width="2.54" layer="16"/>
+<wire x1="20.32" y1="5.08" x2="20.32" y2="16.57" width="1.9304" layer="16"/>
+<wire x1="20.32" y1="16.57" x2="20.28" y2="16.61" width="2.54" layer="16"/>
 <contactref element="85-265VAC1" pad="1"/>
-<wire x1="1.27" y1="-5.08" x2="20.32" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="5.08" x2="20.32" y2="2.54" width="1.9304" layer="16"/>
+<wire x1="20.32" y1="2.54" x2="19.05" y2="1.27" width="1.9304" layer="16"/>
+<wire x1="19.05" y1="1.27" x2="5.08" y2="1.27" width="1.9304" layer="16"/>
+<wire x1="5.08" y1="1.27" x2="3.81" y2="2.54" width="1.9304" layer="16"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="5.08" width="1.9304" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="85-265VAC" pad="2"/>
 <contactref element="N" pad="1"/>
-<wire x1="15.3" y1="5.08" x2="15.3" y2="10.2" width="2.54" layer="16"/>
-<wire x1="15.3" y1="10.2" x2="15.24" y2="10.26" width="2.54" layer="16"/>
+<wire x1="15.3" y1="5.08" x2="15.3" y2="16.55" width="1.9304" layer="16"/>
+<wire x1="15.3" y1="16.55" x2="15.24" y2="16.61" width="2.54" layer="16"/>
 <contactref element="85-265VAC1" pad="2"/>
-<wire x1="6.29" y1="-5.08" x2="15.3" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="15.3" y1="5.08" x2="8.83" y2="5.08" width="1.9304" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="JP2" pad="1"/>
 <contactref element="3.3V" pad="1"/>
-<wire x1="12.72" y1="57.76" x2="12.72" y2="60.94" width="2.54" layer="16"/>
-<wire x1="12.72" y1="60.94" x2="11.43" y2="62.23" width="2.54" layer="16"/>
-<wire x1="11.43" y1="62.23" x2="3.81" y2="62.23" width="2.54" layer="16"/>
-<wire x1="3.81" y1="62.23" x2="2.54" y2="60.96" width="2.54" layer="16"/>
-<wire x1="2.54" y1="60.96" x2="2.54" y2="57.15" width="2.54" layer="16"/>
+<wire x1="12.72" y1="64.11" x2="12.72" y2="58.44" width="1.9304" layer="16"/>
+<wire x1="12.72" y1="58.44" x2="11.43" y2="57.15" width="1.9304" layer="16"/>
+<wire x1="11.43" y1="57.15" x2="2.54" y2="57.15" width="1.9304" layer="16"/>
 </signal>
 <signal name="N$4">
 <contactref element="JP2" pad="2"/>
 <contactref element="GND" pad="1"/>
-<wire x1="22.8" y1="57.76" x2="22.8" y2="54.55" width="2.54" layer="16"/>
-<wire x1="22.8" y1="54.55" x2="20.32" y2="52.07" width="2.54" layer="16"/>
-<wire x1="20.32" y1="52.07" x2="2.6" y2="52.07" width="2.54" layer="16"/>
-<wire x1="2.6" y1="52.07" x2="2.54" y2="52.13" width="2.54" layer="16"/>
+<wire x1="22.8" y1="64.11" x2="22.8" y2="57.09" width="1.9304" layer="16"/>
+<wire x1="22.8" y1="57.09" x2="17.78" y2="52.07" width="1.9304" layer="16"/>
+<wire x1="17.78" y1="52.07" x2="2.6" y2="52.07" width="1.9304" layer="16"/>
+<wire x1="2.6" y1="52.07" x2="2.54" y2="52.13" width="1.9304" layer="16"/>
 </signal>
 </signals>
 </board>

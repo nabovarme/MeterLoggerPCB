@@ -115,7 +115,7 @@
 <text x="2.54" y="15.24" size="1.778" layer="25" rot="R90" align="center-left">Nabovarme PSU</text>
 <text x="1.27" y="58.42" size="1.27" layer="25">3.3V</text>
 <text x="1.27" y="50.8" size="1.27" layer="25" align="top-left">GND</text>
-<text x="1.27" y="1.27" size="1.778" layer="25">v.1.0
+<text x="1.27" y="1.27" size="1.778" layer="25">v.1.1
 2015</text>
 <text x="16.51" y="11.43" size="1.27" layer="25" rot="R270" align="top-center">L</text>
 <text x="16.51" y="6.35" size="1.27" layer="25" rot="R270" align="top-center">N</text>
