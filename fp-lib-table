@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "kamstrup-wifi-import-fps") (type "KiCad") (uri "${KIPRJMOD}/kamstrup-wifi-import-fps.pretty") (options "kicad_import_cache=1") (descr ""))
+)
