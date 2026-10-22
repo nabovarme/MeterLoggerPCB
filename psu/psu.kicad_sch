@@ -1,0 +1,1091 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "798eae6b-b8c3-406b-9742-b41235759e09")
+	(paper "A4")
+	(lib_symbols
+		(symbol "psu-eagle-import:M01PTH_2MM"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at -2.54 3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "psu:1X01_2MM"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Header 1 Standard 1-pin 0.1\" header. Use with straight break away headers (SKU : PRT-00116), right angle break away headers (PRT-00553), swiss pins (PRT-00743), machine pins (PRT-00117), and female headers (PRT-00115)."
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "M01PTH_2MM_1_0"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.6096)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "psu-eagle-import:M02PTH3_5MM"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at -2.54 5.842 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "psu:1X02_LONGPADS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Header 2 Standard 2-pin 5 mm header"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "M02PTH3_5MM_1_0"
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.6096)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.6096)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 83.82 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e4e8e48-b86a-4eaa-a140-b8acdb4327de")
+	)
+	(junction
+		(at 96.52 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca85b23f-e062-48ae-8d83-85e9761064c3")
+	)
+	(wire
+		(pts
+			(xy 73.66 93.98) (xy 73.66 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "06169fe9-3c78-4a77-a3a6-7fdad3bdd5dc")
+	)
+	(wire
+		(pts
+			(xy 73.66 127) (xy 83.82 127)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0747b3e3-88a0-4d87-9bfd-ae745294d3b2")
+	)
+	(wire
+		(pts
+			(xy 195.58 121.92) (xy 195.58 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "08b86a20-ef18-4fc8-acef-957cadfbe02c")
+	)
+	(wire
+		(pts
+			(xy 218.44 73.66) (xy 195.58 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0bb5eb1b-95a7-44f7-a277-695bc60a0c38")
+	)
+	(wire
+		(pts
+			(xy 83.82 127) (xy 83.82 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "100a3491-9854-4150-8183-42fbea02ef71")
+	)
+	(wire
+		(pts
+			(xy 73.66 73.66) (xy 83.82 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "120efdab-acf9-4898-8e9d-aea7c4013ca1")
+	)
+	(wire
+		(pts
+			(xy 195.58 73.66) (xy 195.58 83.82)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2c25954a-d5ca-41f1-bf4a-907f9166c132")
+	)
+	(wire
+		(pts
+			(xy 96.52 116.84) (xy 96.52 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3ba6a91b-9dde-48bb-8aa9-ec7e926041e9")
+	)
+	(wire
+		(pts
+			(xy 96.52 129.54) (xy 96.52 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4def15a4-6583-46ab-83ab-2e064c06db21")
+	)
+	(wire
+		(pts
+			(xy 96.52 73.66) (xy 96.52 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "652040e1-687b-4aca-b4b1-b3bb4039eb2b")
+	)
+	(wire
+		(pts
+			(xy 218.44 121.92) (xy 195.58 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "758aed67-565d-4fe6-97ff-97b0bc440069")
+	)
+	(wire
+		(pts
+			(xy 73.66 91.44) (xy 73.66 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "93beedc1-9d08-49df-93aa-1d0b00557830")
+	)
+	(wire
+		(pts
+			(xy 218.44 99.06) (xy 218.44 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bbdb3348-46b6-45a7-b5aa-5d499705bc91")
+	)
+	(wire
+		(pts
+			(xy 83.82 73.66) (xy 96.52 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bc801908-1d5b-4da8-9ec9-b5a72df8a564")
+	)
+	(wire
+		(pts
+			(xy 73.66 116.84) (xy 96.52 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c6f7214a-cfa1-4590-b0f7-f5826fe2086a")
+	)
+	(wire
+		(pts
+			(xy 218.44 96.52) (xy 218.44 73.66)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ee61149b-8cad-4ba1-9779-2e164e2ec3a8")
+	)
+	(wire
+		(pts
+			(xy 73.66 129.54) (xy 96.52 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f718139d-1757-4ca6-a495-c3b90d8cef2b")
+	)
+	(symbol
+		(lib_id "psu-eagle-import:M01PTH_2MM")
+		(at 88.9 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0181e9bf-0910-4d70-9f75-f8484a06b990")
+		(property "Reference" "N0"
+			(at 86.36 83.058 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M01PTH_2MM"
+			(at 86.36 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "psu-import-fps:1X01_2MM"
+			(at 88.9 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c96ed72-3cb7-4a38-abd7-b2a14d83eaaf")
+		)
+		(instances
+			(project "psu"
+				(path "/50f5ece2-da4b-4c4f-993c-38fd606b6a48"
+					(reference "N0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "psu-eagle-import:M01PTH_2MM")
+		(at 203.2 111.76 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "144bc07f-e2fd-4135-96dd-5222648522bb")
+		(property "Reference" "GND0"
+			(at 205.74 115.062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M01PTH_2MM"
+			(at 205.74 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "psu-import-fps:1X01_2MM"
+			(at 203.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc550b3b-29ca-443f-bea7-6ddb4f9e7cf1")
+		)
+		(instances
+			(project "psu"
+				(path "/50f5ece2-da4b-4c4f-993c-38fd606b6a48"
+					(reference "GND0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "psu-eagle-import:M01PTH_2MM")
+		(at 203.2 83.82 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1d4d5a86-2759-485c-aaf9-e73c82929f21")
+		(property "Reference" "UNK3.3V0"
+			(at 205.74 87.122 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M01PTH_2MM"
+			(at 205.74 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "psu-import-fps:1X01_2MM"
+			(at 203.2 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e6e937b-83b1-4ae5-8ade-02f95efdfa78")
+		)
+		(instances
+			(project "psu"
+				(path "/50f5ece2-da4b-4c4f-993c-38fd606b6a48"
+					(reference "UNK3.3V0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "psu-eagle-import:M02PTH3_5MM")
+		(at 66.04 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2991f028-5e9c-48e5-a247-927f7f7d6e1b")
+		(property "Reference" "UNK85-265VAC1"
+			(at 63.5 123.698 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M02PTH3_5MM"
+			(at 63.5 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "psu-import-fps:1X02_LONGPADS"
+			(at 66.04 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d999a612-ae56-40e6-bae7-1b617d3b619a")
+		)
+		(pin "1"
+			(uuid "a3257779-f978-40ff-aa21-1613915a7912")
+		)
+		(instances
+			(project "psu"
+				(path "/50f5ece2-da4b-4c4f-993c-38fd606b6a48"
+					(reference "UNK85-265VAC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "psu-eagle-import:M02PTH3_5MM")
+		(at 66.04 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3b931d06-70c8-4830-bd36-59b11550e1a3")
+		(property "Reference" "UNK85-265VAC0"
+			(at 63.5 88.138 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M02PTH3_5MM"
+			(at 63.5 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "psu-import-fps:1X02_LONGPADS"
+			(at 66.04 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2a00d1fd-7e1f-4ed2-aec0-0e46210fbe82")
+		)
+		(pin "1"
+			(uuid "6c14f6b9-c000-4fa3-88dc-12208950a18e")
+		)
+		(instances
+			(project "psu"
+				(path "/50f5ece2-da4b-4c4f-993c-38fd606b6a48"
+					(reference "UNK85-265VAC0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "psu-eagle-import:M01PTH_2MM")
+		(at 88.9 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "910c7e2c-54a1-43a8-9d4c-eb43a8cbf7cc")
+		(property "Reference" "L0"
+			(at 86.36 95.758 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M01PTH_2MM"
+			(at 86.36 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "psu-import-fps:1X01_2MM"
+			(at 88.9 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e515cbd7-31bb-415e-ac1f-086c61fe9b1f")
+		)
+		(instances
+			(project "psu"
+				(path "/50f5ece2-da4b-4c4f-993c-38fd606b6a48"
+					(reference "L0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "psu-eagle-import:M02PTH3_5MM")
+		(at 226.06 96.52 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c7609029-8b6b-4ee0-8a72-af5af528ffcc")
+		(property "Reference" "JP2"
+			(at 228.6 102.362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "M02PTH3_5MM"
+			(at 228.6 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "psu-import-fps:1X02_LONGPADS"
+			(at 226.06 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef5ccffd-9116-482c-92d7-ebb96cfea28c")
+		)
+		(pin "2"
+			(uuid "7844b947-7d77-441c-9d36-255e5a2014fd")
+		)
+		(instances
+			(project "psu"
+				(path "/50f5ece2-da4b-4c4f-993c-38fd606b6a48"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
