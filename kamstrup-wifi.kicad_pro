@@ -663,7 +663,7 @@
       {
         "filename": "kamstrup-wifi.kicad_sch",
         "name": "kamstrup-wifi_1",
-        "uuid": "5e66b7b4-1e51-4451-bb91-a443ce990a7a"
+        "uuid": "b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
       }
     ],
     "used_designators": "",
@@ -671,7 +671,7 @@
   },
   "sheets": [
     [
-      "5e66b7b4-1e51-4451-bb91-a443ce990a7a",
+      "b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08",
       "kamstrup-wifi_1"
     ]
   ],
