@@ -5,6 +5,158 @@
 	(uuid "60cefcc6-b227-4df3-9351-ac63a2a181b0")
 	(paper "User" 297.0022 215.4936)
 	(lib_symbols
+		(symbol "Device:Fuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "F"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse"
+				(at -1.905 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fuse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -0.762 -2.54)
+					(end 0.762 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "kamstrup-wifi-eagle-import:3.3V"
 			(power global)
 			(exclude_from_sim no)
@@ -116,6 +268,226 @@
 						(effects
 							(font
 								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "kamstrup-wifi-eagle-import:ACS725"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -7.62 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ACS725LLCTR-20AB-T"
+				(at -7.62 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "3.3V Hall Effect Current Sensor SOIC-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ACS725_1_0"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -12.7 7.62 0)
+					(length 5.08)
+					(name "IP+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "IP+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "IP-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "IP-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 -7.62 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "FILTER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "VIOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -410,6 +782,131 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "kamstrup-wifi-eagle-import:C-EU_C0805"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 1.524 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "kamstrup-wifi-import-fps:R0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "CAPACITOR 0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C-EU_C0805_1_0"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 0 0)
@@ -2887,352 +3384,6 @@
 			)
 			(embedded_fonts no)
 		)
-
-		(symbol "kamstrup-wifi-eagle-import:ACS725"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -7.62 11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "ACS725LLCTR-20AB-T"
-				(at -7.62 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(justify left bottom)
-			)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "3.3V Hall Effect Current Sensor SOIC-8"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-				)
-			)
-			)
-			(symbol "ACS725_1_0"
-				(rectangle
-					(start -7.62 10.16)
-					(end 7.62 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -12.7 7.62 0)
-					(length 5.08)
-					(name "IP+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 5.08 0)
-					(length 5.08)
-					(name "IP+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -5.08 0)
-					(length 5.08)
-					(name "IP-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -7.62 0)
-					(length 5.08)
-					(name "IP-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 -7.62 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -2.54 180)
-					(length 5.08)
-					(name "FILTER"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 2.54 180)
-					(length 5.08)
-					(name "VIOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 7.62 180)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "kamstrup-wifi-eagle-import:C-EU_C0805"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 1.524 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at 1.524 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "kamstrup-wifi-import-fps:R0805"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "CAPACITOR 0805"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C-EU_C0805_1_0"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "RxD"
 		(exclude_from_sim no)
@@ -3279,6 +3430,12 @@
 		(uuid "c983de3e-b570-41d6-83e1-be8f38349e48")
 	)
 	(junction
+		(at 276.86 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13d0c7e9-d522-4e2c-9a16-98006e53faf2")
+	)
+	(junction
 		(at 73.66 17.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3307,6 +3464,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72436e7c-673d-4bd4-948f-cb5ba426ba9b")
+	)
+	(junction
+		(at 256.54 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7472fb85-a152-4fcf-9f10-4e4ae9ec2b83")
 	)
 	(junction
 		(at 151.13 186.69)
@@ -3366,6 +3529,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 146.05) (xy 220.98 148.59)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "079f642d-db54-4074-833d-4ce0cec1b15a")
+	)
+	(wire
+		(pts
 			(xy 151.13 146.05) (xy 181.61 146.05)
 		)
 		(stroke
@@ -3383,16 +3556,6 @@
 			(type solid)
 		)
 		(uuid "08ec8b2e-1d30-4b23-a76d-15bd425c859a")
-	)
-	(wire
-		(pts
-			(xy 199.39 123.19) (xy 161.29 123.19)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0af1d9af-0d56-4f6f-a408-a6ea4e7e3379")
 	)
 	(wire
 		(pts
@@ -3516,6 +3679,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 135.89) (xy 215.9 195.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "21490dd7-e65c-449d-b62b-0acf8ce500d1")
+	)
+	(wire
+		(pts
 			(xy 76.2 40.64) (xy 76.2 20.32)
 		)
 		(stroke
@@ -3556,6 +3729,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 135.89) (xy 220.98 135.89)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2c1678a5-2609-42f7-a717-79f40cb6beb7")
+	)
+	(wire
+		(pts
 			(xy 133.35 135.89) (xy 128.27 135.89)
 		)
 		(stroke
@@ -3566,6 +3749,46 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 195.58) (xy 203.2 195.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "30bf6430-6fad-4556-8ff2-0866af09309c")
+	)
+	(wire
+		(pts
+			(xy 256.54 133.35) (xy 256.54 135.89)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "33bec663-a0c6-41ee-9fde-f26073b5cb99")
+	)
+	(wire
+		(pts
+			(xy 218.44 146.05) (xy 218.44 189.23)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "33efeb6e-56f3-4e65-b0ca-6f2fa01f1e53")
+	)
+	(wire
+		(pts
+			(xy 246.38 143.51) (xy 261.62 143.51)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "35893765-6ddf-4f4e-8369-458efae8366b")
+	)
+	(wire
+		(pts
 			(xy 210.82 20.32) (xy 210.82 35.56)
 		)
 		(stroke
@@ -3573,6 +3796,16 @@
 			(type solid)
 		)
 		(uuid "360f7c51-e730-4a10-8105-818c7b854c45")
+	)
+	(wire
+		(pts
+			(xy 276.86 138.43) (xy 276.86 140.97)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "376ced07-cc24-4ea8-a56a-37efb21830a0")
 	)
 	(wire
 		(pts
@@ -3616,6 +3849,26 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 148.59) (xy 251.46 148.59)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3cd651b8-c0b9-46ae-86a1-31239326088a")
+	)
+	(wire
+		(pts
+			(xy 220.98 146.05) (xy 218.44 146.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3dbad2b8-83cd-4730-bebf-335e6d5d8549")
+	)
+	(wire
+		(pts
 			(xy 82.55 116.84) (xy 82.55 135.89)
 		)
 		(stroke
@@ -3633,6 +3886,16 @@
 			(type solid)
 		)
 		(uuid "47bb7819-0712-4549-9dbe-839fd2746cb6")
+	)
+	(wire
+		(pts
+			(xy 276.86 101.6) (xy 142.24 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4ccddae5-ffbb-4b89-b753-6abeff47df0d")
 	)
 	(wire
 		(pts
@@ -3663,6 +3926,16 @@
 			(type solid)
 		)
 		(uuid "53acfb8c-cf02-484a-bfc3-86231f2be149")
+	)
+	(wire
+		(pts
+			(xy 256.54 130.81) (xy 256.54 133.35)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "555128f5-b5fe-4dea-a610-6b050b1de6e6")
 	)
 	(wire
 		(pts
@@ -3806,6 +4079,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 151.13) (xy 276.86 153.67)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "680ad202-2925-4d7a-81ab-f1040e7ab5a1")
+	)
+	(wire
+		(pts
 			(xy 161.29 135.89) (xy 161.29 123.19)
 		)
 		(stroke
@@ -3836,6 +4119,36 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 140.97) (xy 256.54 143.51)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "713bf2fa-cf87-4ce4-bfeb-7d8b5bb77bb9")
+	)
+	(wire
+		(pts
+			(xy 261.62 151.13) (xy 261.62 153.67)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "72bf1c3b-6c72-44bd-9e99-49266a226b35")
+	)
+	(wire
+		(pts
+			(xy 181.61 189.23) (xy 181.61 186.69)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "77aa14ae-e8d4-4ef6-866c-719f4d1afb52")
+	)
+	(wire
+		(pts
 			(xy 149.86 38.1) (xy 149.86 40.64)
 		)
 		(stroke
@@ -3853,6 +4166,26 @@
 			(type solid)
 		)
 		(uuid "7a7e8f15-8538-4c0e-b454-ab2bd022edac")
+	)
+	(wire
+		(pts
+			(xy 218.44 189.23) (xy 181.61 189.23)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7aa4f584-e1e7-41f5-91ad-3f736a065a0e")
+	)
+	(wire
+		(pts
+			(xy 246.38 138.43) (xy 266.7 138.43)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8248b5f4-724a-448d-858e-ffa35486d45e")
 	)
 	(wire
 		(pts
@@ -3896,6 +4229,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 148.59) (xy 251.46 151.13)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9d501ad5-2c2e-46a2-b000-7e3b72669c8d")
+	)
+	(wire
+		(pts
 			(xy 82.55 135.89) (xy 90.17 135.89)
 		)
 		(stroke
@@ -3923,6 +4266,16 @@
 			(type solid)
 		)
 		(uuid "a76ae853-0f4c-49a9-bffb-ecfd540baf89")
+	)
+	(wire
+		(pts
+			(xy 161.29 123.19) (xy 199.39 123.19)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a7c058fc-f222-4fb5-9ac0-5c34fce33a9f")
 	)
 	(wire
 		(pts
@@ -3966,6 +4319,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 133.35) (xy 256.54 133.35)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b2e7573e-ab2d-4afa-95d0-996834c17166")
+	)
+	(wire
+		(pts
 			(xy 100.33 135.89) (xy 107.95 135.89)
 		)
 		(stroke
@@ -4003,6 +4366,16 @@
 			(type solid)
 		)
 		(uuid "b8d51f87-6893-40aa-a5d1-c751a0e25f99")
+	)
+	(wire
+		(pts
+			(xy 199.39 186.69) (xy 199.39 195.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b921dfd9-6d44-487a-9664-77dd59af254b")
 	)
 	(wire
 		(pts
@@ -4066,6 +4439,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 143.51) (xy 261.62 146.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cca48f5c-7db1-4b66-a74b-49fc879960db")
+	)
+	(wire
+		(pts
 			(xy 130.81 186.69) (xy 128.27 186.69)
 		)
 		(stroke
@@ -4076,6 +4459,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 135.89) (xy 220.98 133.35)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d2b0d2d1-4ed2-4b4a-8bd0-c8d1ee157eef")
+	)
+	(wire
+		(pts
 			(xy 100.33 176.53) (xy 107.95 176.53)
 		)
 		(stroke
@@ -4083,6 +4476,16 @@
 			(type solid)
 		)
 		(uuid "db8e0f65-b480-4aac-8547-2d4d199a72c0")
+	)
+	(wire
+		(pts
+			(xy 142.24 101.6) (xy 142.24 35.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dd6591b8-ad6c-4a4b-9eee-649671dc4130")
 	)
 	(wire
 		(pts
@@ -4116,6 +4519,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 195.58) (xy 215.9 195.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f130d742-80bb-408a-b7f7-6bbb9a4dacba")
+	)
+	(wire
+		(pts
 			(xy 133.35 176.53) (xy 128.27 176.53)
 		)
 		(stroke
@@ -4136,6 +4549,26 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 138.43) (xy 276.86 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f8f7334c-d5b8-4275-b5ab-5744b77f996e")
+	)
+	(wire
+		(pts
+			(xy 142.24 35.56) (xy 157.48 35.56)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f9f2a3fe-2079-47c6-a7a1-06a9130e80fc")
+	)
+	(wire
+		(pts
 			(xy 212.09 55.88) (xy 203.2 55.88)
 		)
 		(stroke
@@ -4153,6 +4586,36 @@
 			(type solid)
 		)
 		(uuid "fe4c3a2b-a583-48dc-b621-7eedf5eb2d71")
+	)
+	(label "AC_N"
+		(at 196.85 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55176855-7562-4a9b-a78a-78469ace3ba4")
+	)
+	(label "AC_OUT_2"
+		(at 184.15 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb6146e2-c5c7-472d-b471-9c7a24a52eee")
+	)
+	(label "AC_OUT_1"
+		(at 184.15 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe97fcc5-853b-46a0-96fa-5b02d46dd149")
 	)
 	(symbol
 		(lib_id "kamstrup-wifi-eagle-import:GND")
@@ -4395,6 +4858,84 @@
 		)
 	)
 	(symbol
+		(lib_id "kamstrup-wifi-eagle-import:GND")
+		(at 261.62 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "247e76e1-2d57-49ec-b089-33ad9ad77a57")
+		(property "Reference" "#GND11"
+			(at 261.62 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 261.62 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1c7a117-f532-40bc-9cda-510223d069cb")
+		)
+		(instances
+			(project "kamstrup-wifi"
+				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
+					(reference "#GND11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "kamstrup-wifi-eagle-import:R-EU_R0805")
 		(at 218.44 67.31 90)
 		(unit 1)
@@ -4470,6 +5011,87 @@
 			(project "kamstrup-wifi"
 				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kamstrup-wifi-eagle-import:R-EU_R0805")
+		(at 276.86 146.05 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "26a572cb-24fb-4701-98b1-51a5c3fc250b")
+		(property "Reference" "R11"
+			(at 278.64 145.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "10k"
+			(at 278.64 148.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "kamstrup-wifi-import-fps:R0805"
+			(at 276.86 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 276.86 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8c3fdbe6-dec0-4756-ac90-8fde02cbe0f0")
+		)
+		(pin "2"
+			(uuid "1efef15f-6567-412e-abc9-e858d1b884be")
+		)
+		(instances
+			(project "kamstrup-wifi"
+				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4645,6 +5267,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 207.01 195.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e7c6aaf-800e-4548-bcb5-ecc9170123be")
+		(property "Reference" "F1"
+			(at 205.74 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 205.74 199.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Littelfuse_154_Horizontal_Closed"
+			(at 207.01 195.58 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 207.01 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "21535923-436b-436f-a403-ec2a8f96fab4")
+		)
+		(pin "1"
+			(uuid "d41ab2c7-3050-4e53-a3b2-0614ec68153c")
+		)
+		(instances
+			(project "kamstrup-wifi"
+				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "kamstrup-wifi-eagle-import:MOC30S43")
 		(at 118.11 181.61 0)
 		(unit 1)
@@ -4770,6 +5472,186 @@
 			(project "kamstrup-wifi"
 				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
 					(reference "OK1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kamstrup-wifi-eagle-import:C-EU_C0805")
+		(at 256.54 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2ec67c84-dc7f-45c7-9905-98eec76951ed")
+		(property "Reference" "C1"
+			(at 258.32 137.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "100nF"
+			(at 258.32 140.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "kamstrup-wifi-import-fps:R0805"
+			(at 256.54 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a7997fb-cfdf-4860-b373-704d08176d19")
+		)
+		(pin "2"
+			(uuid "b1a5c5a7-fdc4-47de-b702-dda9c09d346f")
+		)
+		(instances
+			(project "kamstrup-wifi"
+				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kamstrup-wifi-eagle-import:ACS725")
+		(at 233.68 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "354d3ff8-3e8d-478b-8c11-7160749f96ce")
+		(property "Reference" "U2"
+			(at 226.06 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ACS725LLCTR-20AB-T"
+			(at 226.06 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 233.68 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d485d75-b8bb-4db7-96a0-c33396000cd6")
+		)
+		(pin "2"
+			(uuid "4a8035dd-0b61-4440-bbd0-41121f55f3d4")
+		)
+		(pin "3"
+			(uuid "d44e6c6d-7adb-40cf-b2c8-4c9d5aca6aed")
+		)
+		(pin "4"
+			(uuid "c7537a7b-25ca-44de-a3e4-b21a9c6be69e")
+		)
+		(pin "5"
+			(uuid "15971806-4aa5-4113-ba0b-9e978558d2c9")
+		)
+		(pin "6"
+			(uuid "367fa551-41ef-4026-8cb3-ab63db648ed3")
+		)
+		(pin "7"
+			(uuid "bc80c183-bd70-49cc-b82b-0e6c1dc5181d")
+		)
+		(pin "8"
+			(uuid "c6c4697a-2491-4d53-9116-23084dd82ec8")
+		)
+		(instances
+			(project "kamstrup-wifi"
+				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5549,6 +6431,162 @@
 		)
 	)
 	(symbol
+		(lib_id "kamstrup-wifi-eagle-import:GND")
+		(at 256.54 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6f5a2eaf-fc2c-451b-b690-0da852444ac8")
+		(property "Reference" "#GND9"
+			(at 256.54 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c364581-60fc-4c81-8502-66aeeab8394f")
+		)
+		(instances
+			(project "kamstrup-wifi"
+				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
+					(reference "#GND9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kamstrup-wifi-eagle-import:GND")
+		(at 276.86 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "74f30c68-58f6-4987-9799-34663df15775")
+		(property "Reference" "#GND12"
+			(at 276.86 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 274.32 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 276.86 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38198517-608c-451c-b6d2-14b8b87afa10")
+		)
+		(instances
+			(project "kamstrup-wifi"
+				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
+					(reference "#GND12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "kamstrup-wifi-eagle-import:R-EU_R0805")
 		(at 217.17 55.88 180)
 		(unit 1)
@@ -5780,6 +6818,87 @@
 			(project "kamstrup-wifi"
 				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
 					(reference "#SUPPLY1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kamstrup-wifi-eagle-import:R-EU_R0805")
+		(at 271.78 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8fab14c4-c67c-4ed8-8fc3-d331de11d87e")
+		(property "Reference" "R10"
+			(at 268.48 136.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "22k"
+			(at 268.48 141.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "kamstrup-wifi-import-fps:R0805"
+			(at 271.78 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 271.78 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e69dc55-22dd-4557-b52d-c8156c7e873e")
+		)
+		(pin "2"
+			(uuid "0cb8fe94-a823-4145-923a-4b82f97415f7")
+		)
+		(instances
+			(project "kamstrup-wifi"
+				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6591,6 +7710,84 @@
 	)
 	(symbol
 		(lib_id "kamstrup-wifi-eagle-import:GND")
+		(at 251.46 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c643ef19-6fd0-4a3f-a8de-c56ca61c43ec")
+		(property "Reference" "#GND10"
+			(at 251.46 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 251.46 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ebf31345-4dfa-4634-98fc-deb95da8a805")
+		)
+		(instances
+			(project "kamstrup-wifi"
+				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
+					(reference "#GND10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kamstrup-wifi-eagle-import:GND")
 		(at 208.28 81.28 0)
 		(unit 1)
 		(body_style 1)
@@ -6799,8 +7996,8 @@
 		)
 	)
 	(symbol
-		(lib_id "kamstrup-wifi-eagle-import:BT137")
-		(at 151.13 181.61 0)
+		(lib_id "kamstrup-wifi-eagle-import:C-EU_C0805")
+		(at 261.62 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6808,9 +8005,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ec107a3d-348c-486d-a82c-0f6c9231e7d8")
-		(property "Reference" "T1"
-			(at 154.94 179.07 0)
+		(uuid "da884b1a-a7ae-445f-bde0-1963e1fb3e78")
+		(property "Reference" "C2"
+			(at 263.4 147.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6820,8 +8017,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "BT137"
-			(at 154.94 181.61 0)
+		(property "Value" "1nF"
+			(at 263.4 150.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6831,8 +8028,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "kamstrup-wifi-import-fps:SOT428"
-			(at 151.13 181.61 0)
+		(property "Footprint" "kamstrup-wifi-import-fps:R0805"
+			(at 261.62 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6843,7 +8040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 181.61 0)
+			(at 261.62 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6854,7 +8051,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 181.61 0)
+			(at 261.62 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6863,377 +8060,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "4"
-			(uuid "21822c7d-6ba1-40a2-b1d5-9254189bec60")
-		)
-		(pin "3"
-			(uuid "e9a1925b-409c-4c2e-beab-eb5f15d16cdb")
 		)
 		(pin "1"
-			(uuid "ea6c2548-91f7-493b-aff9-5f72caab95d0")
+			(uuid "ad6d55e7-2bad-4552-a685-682e749087b1")
+		)
+		(pin "2"
+			(uuid "3aff6879-63cc-4e69-965d-e3b552ab34b1")
 		)
 		(instances
 			(project "kamstrup-wifi"
 				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
-					(reference "T1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(junction
-		(at 220.98 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23ec8749-e64a-45f6-bda8-16ffb63bbe93")
-	)
-	(junction
-		(at 220.98 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b32d6e44-f2c4-4e52-8a8a-8b3f7c167d14")
-	)
-	(junction
-		(at 256.54 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7472fb85-a152-4fcf-9f10-4e4ae9ec2b83")
-	)
-	(junction
-		(at 276.86 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13d0c7e9-d522-4e2c-9a16-98006e53faf2")
-	)
-	(wire
-		(pts
-			(xy 199.39 186.69) (xy 215.90 186.69)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f4d97fed-abf8-4227-bdeb-9d40ce1f0f25")
-	)
-	(wire
-		(pts
-			(xy 215.90 186.69) (xy 215.90 135.89)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7f9c2f5e-b7dd-474d-a19f-b46b6cb1566c")
-	)
-	(wire
-		(pts
-			(xy 215.90 135.89) (xy 220.98 135.89)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2c1678a5-2609-42f7-a717-79f40cb6beb7")
-	)
-	(wire
-		(pts
-			(xy 220.98 135.89) (xy 220.98 133.35)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d2b0d2d1-4ed2-4b4a-8bd0-c8d1ee157eef")
-	)
-	(wire
-		(pts
-			(xy 220.98 146.05) (xy 220.98 148.59)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "079f642d-db54-4074-833d-4ce0cec1b15a")
-	)
-	(wire
-		(pts
-			(xy 220.98 146.05) (xy 218.44 146.05)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3dbad2b8-83cd-4730-bebf-335e6d5d8549")
-	)
-	(wire
-		(pts
-			(xy 218.44 146.05) (xy 218.44 189.23)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "33efeb6e-56f3-4e65-b0ca-6f2fa01f1e53")
-	)
-	(wire
-		(pts
-			(xy 218.44 189.23) (xy 181.61 189.23)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7aa4f584-e1e7-41f5-91ad-3f736a065a0e")
-	)
-	(wire
-		(pts
-			(xy 181.61 189.23) (xy 181.61 186.69)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "77aa14ae-e8d4-4ef6-866c-719f4d1afb52")
-	)
-	(wire
-		(pts
-			(xy 246.38 133.35) (xy 256.54 133.35)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b2e7573e-ab2d-4afa-95d0-996834c17166")
-	)
-	(wire
-		(pts
-			(xy 256.54 130.81) (xy 256.54 133.35)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "555128f5-b5fe-4dea-a610-6b050b1de6e6")
-	)
-	(wire
-		(pts
-			(xy 256.54 133.35) (xy 256.54 135.89)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "33bec663-a0c6-41ee-9fde-f26073b5cb99")
-	)
-	(wire
-		(pts
-			(xy 256.54 140.97) (xy 256.54 143.51)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "713bf2fa-cf87-4ce4-bfeb-7d8b5bb77bb9")
-	)
-	(wire
-		(pts
-			(xy 246.38 148.59) (xy 251.46 148.59)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3cd651b8-c0b9-46ae-86a1-31239326088a")
-	)
-	(wire
-		(pts
-			(xy 251.46 148.59) (xy 251.46 151.13)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9d501ad5-2c2e-46a2-b000-7e3b72669c8d")
-	)
-	(wire
-		(pts
-			(xy 246.38 143.51) (xy 261.62 143.51)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "35893765-6ddf-4f4e-8369-458efae8366b")
-	)
-	(wire
-		(pts
-			(xy 261.62 143.51) (xy 261.62 146.05)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "cca48f5c-7db1-4b66-a74b-49fc879960db")
-	)
-	(wire
-		(pts
-			(xy 261.62 151.13) (xy 261.62 153.67)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "72bf1c3b-6c72-44bd-9e99-49266a226b35")
-	)
-	(wire
-		(pts
-			(xy 246.38 138.43) (xy 266.70 138.43)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8248b5f4-724a-448d-858e-ffa35486d45e")
-	)
-	(wire
-		(pts
-			(xy 276.86 138.43) (xy 276.86 140.97)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "376ced07-cc24-4ea8-a56a-37efb21830a0")
-	)
-	(wire
-		(pts
-			(xy 276.86 151.13) (xy 276.86 153.67)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "680ad202-2925-4d7a-81ab-f1040e7ab5a1")
-	)
-	(wire
-		(pts
-			(xy 276.86 138.43) (xy 276.86 101.60)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f8f7334c-d5b8-4275-b5ab-5744b77f996e")
-	)
-	(wire
-		(pts
-			(xy 276.86 101.60) (xy 142.24 101.60)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4ccddae5-ffbb-4b89-b753-6abeff47df0d")
-	)
-	(wire
-		(pts
-			(xy 142.24 101.60) (xy 142.24 35.56)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "dd6591b8-ad6c-4a4b-9eee-649671dc4130")
-	)
-	(wire
-		(pts
-			(xy 142.24 35.56) (xy 157.48 35.56)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f9f2a3fe-2079-47c6-a7a1-06a9130e80fc")
-	)
-	(symbol
-		(lib_id "kamstrup-wifi-eagle-import:ACS725")
-		(at 233.68 140.97 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "354d3ff8-3e8d-478b-8c11-7160749f96ce")
-		(property "Reference" "U2"
-			(at 226.06 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "ACS725LLCTR-20AB-T"
-			(at 226.06 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 233.68 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 233.68 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1" (uuid "5d485d75-b8bb-4db7-96a0-c33396000cd6"))
-		(pin "2" (uuid "4a8035dd-0b61-4440-bbd0-41121f55f3d4"))
-		(pin "3" (uuid "d44e6c6d-7adb-40cf-b2c8-4c9d5aca6aed"))
-		(pin "4" (uuid "c7537a7b-25ca-44de-a3e4-b21a9c6be69e"))
-		(pin "5" (uuid "15971806-4aa5-4113-ba0b-9e978558d2c9"))
-		(pin "6" (uuid "367fa551-41ef-4026-8cb3-ab63db648ed3"))
-		(pin "7" (uuid "bc80c183-bd70-49cc-b82b-0e6c1dc5181d"))
-		(pin "8" (uuid "c6c4697a-2491-4d53-9116-23084dd82ec8"))
-		(instances
-			(project "kamstrup-wifi"
-				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
-					(reference "U2")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -7318,8 +8155,8 @@
 		)
 	)
 	(symbol
-		(lib_id "kamstrup-wifi-eagle-import:GND")
-		(at 256.54 146.05 0)
+		(lib_id "kamstrup-wifi-eagle-import:BT137")
+		(at 151.13 181.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7327,20 +8164,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6f5a2eaf-fc2c-451b-b690-0da852444ac8")
-		(property "Reference" "#GND9"
-			(at 256.54 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 254.00 148.59 0)
+		(uuid "ec107a3d-348c-486d-a82c-0f6c9231e7d8")
+		(property "Reference" "T1"
+			(at 154.94 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7350,8 +8176,19 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
-			(at 256.54 146.05 0)
+		(property "Value" "BT137"
+			(at 154.94 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "kamstrup-wifi-import-fps:SOT428"
+			(at 151.13 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7362,7 +8199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 146.05 0)
+			(at 151.13 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7373,7 +8210,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 146.05 0)
+			(at 151.13 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7383,571 +8220,19 @@
 				)
 			)
 		)
+		(pin "4"
+			(uuid "21822c7d-6ba1-40a2-b1d5-9254189bec60")
+		)
+		(pin "3"
+			(uuid "e9a1925b-409c-4c2e-beab-eb5f15d16cdb")
+		)
 		(pin "1"
-			(uuid "0c364581-60fc-4c81-8502-66aeeab8394f")
+			(uuid "ea6c2548-91f7-493b-aff9-5f72caab95d0")
 		)
 		(instances
 			(project "kamstrup-wifi"
 				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
-					(reference "#GND9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kamstrup-wifi-eagle-import:GND")
-		(at 251.46 153.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c643ef19-6fd0-4a3f-a8de-c56ca61c43ec")
-		(property "Reference" "#GND10"
-			(at 251.46 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 248.92 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 251.46 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ebf31345-4dfa-4634-98fc-deb95da8a805")
-		)
-		(instances
-			(project "kamstrup-wifi"
-				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
-					(reference "#GND10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kamstrup-wifi-eagle-import:GND")
-		(at 261.62 156.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "247e76e1-2d57-49ec-b089-33ad9ad77a57")
-		(property "Reference" "#GND11"
-			(at 261.62 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 259.08 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 261.62 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 261.62 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d1c7a117-f532-40bc-9cda-510223d069cb")
-		)
-		(instances
-			(project "kamstrup-wifi"
-				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
-					(reference "#GND11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kamstrup-wifi-eagle-import:GND")
-		(at 276.86 156.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "74f30c68-58f6-4987-9799-34663df15775")
-		(property "Reference" "#GND12"
-			(at 276.86 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 274.32 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 276.86 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 276.86 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "38198517-608c-451c-b6d2-14b8b87afa10")
-		)
-		(instances
-			(project "kamstrup-wifi"
-				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
-					(reference "#GND12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kamstrup-wifi-eagle-import:C-EU_C0805")
-		(at 256.54 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2ec67c84-dc7f-45c7-9905-98eec76951ed")
-		(property "Reference" "C1"
-			(at 258.32 137.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "100nF"
-			(at 258.32 140.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "kamstrup-wifi-import-fps:R0805"
-			(at 256.54 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 256.54 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7a7997fb-cfdf-4860-b373-704d08176d19")
-		)
-		(pin "2"
-			(uuid "b1a5c5a7-fdc4-47de-b702-dda9c09d346f")
-		)
-		(instances
-			(project "kamstrup-wifi"
-				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kamstrup-wifi-eagle-import:C-EU_C0805")
-		(at 261.62 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "da884b1a-a7ae-445f-bde0-1963e1fb3e78")
-		(property "Reference" "C2"
-			(at 263.40 147.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1nF"
-			(at 263.40 150.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "kamstrup-wifi-import-fps:R0805"
-			(at 261.62 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 261.62 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ad6d55e7-2bad-4552-a685-682e749087b1")
-		)
-		(pin "2"
-			(uuid "3aff6879-63cc-4e69-965d-e3b552ab34b1")
-		)
-		(instances
-			(project "kamstrup-wifi"
-				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kamstrup-wifi-eagle-import:R-EU_R0805")
-		(at 271.78 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8fab14c4-c67c-4ed8-8fc3-d331de11d87e")
-		(property "Reference" "R10"
-			(at 268.48 136.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "22k"
-			(at 268.48 141.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "kamstrup-wifi-import-fps:R0805"
-			(at 271.78 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 271.78 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9e69dc55-22dd-4557-b52d-c8156c7e873e")
-		)
-		(pin "2"
-			(uuid "0cb8fe94-a823-4145-923a-4b82f97415f7")
-		)
-		(instances
-			(project "kamstrup-wifi"
-				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kamstrup-wifi-eagle-import:R-EU_R0805")
-		(at 276.86 146.05 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "26a572cb-24fb-4701-98b1-51a5c3fc250b")
-		(property "Reference" "R11"
-			(at 278.64 145.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "10k"
-			(at 278.64 148.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "kamstrup-wifi-import-fps:R0805"
-			(at 276.86 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 276.86 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8c3fdbe6-dec0-4756-ac90-8fde02cbe0f0")
-		)
-		(pin "2"
-			(uuid "1efef15f-6567-412e-abc9-e858d1b884be")
-		)
-		(instances
-			(project "kamstrup-wifi"
-				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
-					(reference "R11")
+					(reference "T1")
 					(unit 1)
 				)
 			)
