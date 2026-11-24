@@ -5082,7 +5082,7 @@
 		(dnp no)
 		(uuid "26a572cb-24fb-4701-98b1-51a5c3fc250b")
 		(property "Reference" "R11"
-			(at 230.38 135.38 0)
+			(at 226.822 137.922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5093,7 +5093,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 230.38 138.18 0)
+			(at 233.172 138.176 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5987,7 +5987,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS810"
 			(at 248.92 53.34 0)
 			(hide yes)
 			(show_name no)
