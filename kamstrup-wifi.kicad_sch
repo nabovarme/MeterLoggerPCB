@@ -5634,7 +5634,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "ACS725LLCTR-20AB-T"
+		(property "Value" "ACS722LLCTR-05AB-T"
 			(at 177.8 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)

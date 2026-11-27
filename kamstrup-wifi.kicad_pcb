@@ -1230,7 +1230,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -1651,7 +1651,7 @@
 				(pins "1" "2" "6" "4")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.235 -3.87)
@@ -2162,12 +2162,18 @@
 			(at 2.075 -1.075 270)
 			(size 1.05 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(PRG0-Pad1)")
+			(pinfunction "1_1")
+			(pintype "passive")
 			(uuid "2a2b1e95-d234-4902-850c-d3f209d52d85")
 		)
 		(pad "2" smd rect
 			(at -2.075 1.075 270)
 			(size 1.05 0.65)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(PRG0-Pad2)")
+			(pinfunction "2_2")
+			(pintype "passive")
 			(uuid "eada1bbb-4ef4-4ada-a239-48e84968e4e7")
 		)
 		(pad "2" smd rect
@@ -2645,7 +2651,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.227064 0.735)
@@ -2804,7 +2810,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -2956,7 +2962,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -11.45 -5.5)
@@ -3457,7 +3463,7 @@
 				(pins "1" "2" "6" "4")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.235 -3.87)
@@ -3736,7 +3742,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -3900,7 +3906,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.261252 0.735)
@@ -4065,7 +4071,7 @@
 				(pins "3" "4" "1")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.11 -3.45)
@@ -4287,7 +4293,6 @@
 			(size 6.4 5.8)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.043103)
-			(net "/AC_OUT_1")
 			(uuid "e51383af-a68a-4cd7-be27-572dcdfedbb5")
 		)
 		(pad "3" smd roundrect
@@ -4389,7 +4394,7 @@
 				(pins "3" "4" "1")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.11 -3.45)
@@ -4611,7 +4616,6 @@
 			(size 6.4 5.8)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.043103)
-			(net "/AC_OUT_2")
 			(uuid "f558d499-0663-4cba-bffc-6c6ef80237e7")
 		)
 		(pad "3" smd roundrect
@@ -4713,7 +4717,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -4878,7 +4882,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -5043,7 +5047,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -5208,7 +5212,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.227064 0.735)
@@ -5373,7 +5377,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -5538,7 +5542,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.227064 0.735)
@@ -5703,7 +5707,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -5810,7 +5814,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "ACS725LLCTR-20AB-T"
+		(property "Value" "ACS722LLCTR-05AB-T"
 			(at 0 -3.4 90)
 			(layer "B.Fab")
 			(uuid "0e940c90-a15d-48a0-a3a8-7f8314b6f1a6")
@@ -5863,6 +5867,12 @@
 		(path "/354d3ff8-3e8d-478b-8c11-7160749f96ce")
 		(sheetname "/")
 		(sheetfile "kamstrup-wifi.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "8" "5" "7" "6")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -6316,7 +6326,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.227064 0.735)
@@ -6767,7 +6777,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "Part			RS#\nC1				181-4048\nC2				192-7619\nF1				473-4892\nJP1, JP2, JP3	821-8701\nKAM				702-2937\nOK1, OK2		691-2319\nPRG0			083-8278\nR1, R2, R3, R11	721-7820\nR4, R5, R6, R7	721-7707\nR8, R9			721-6867\nR10				228-5012\nT1, T2			792-0709\nU2				866-0770\nUART0			681-2985"
+	(gr_text "Part			RS#\nC1				181-4048\nC2				192-7619\nF1				473-4892\nJP1, JP2, JP3	821-8701\nKAM				702-2937\nOK1, OK2		691-2319\nPRG0			083-8278\nR1, R2, R3, R11	721-7820\nR4, R5, R6, R7	721-7707\nR8, R9			721-6867\nR10				228-5012\nT1, T2			792-0709\nU2				866-0776\nUART0			681-2985"
 		(at 157.5011 119.8436 0)
 		(layer "B.SilkS")
 		(uuid "83bb4759-3b25-4e3e-9a6d-c9adc4d19026")
@@ -8914,39 +8924,6 @@
 		)
 	)
 	(zone
-		(net "/AC_CURRENT_SENSE")
-		(layer "B.Cu")
-		(hatch none 0.1)
-		(priority 30005)
-		(attr
-			(teardrop
-				(type track_end)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 149.103371 104.825) (xy 149.103371 105.575) (xy 150.296801 105.869858) (xy 150.504371 105.2)
-				(xy 150.296801 104.530142)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 150.294938 104.534131) (xy 150.300067 104.540684) (xy 150.503297 105.196537) (xy 150.503297 105.203463)
-				(xy 150.300067 105.859315) (xy 150.294345 105.866203) (xy 150.286085 105.86721) (xy 149.112265 105.577197)
-				(xy 149.105055 105.571886) (xy 149.103371 105.565839) (xy 149.103371 104.83416) (xy 149.106798 104.825887)
-				(xy 149.112263 104.822803) (xy 150.286086 104.532789)
-			)
-		)
-	)
-	(zone
 		(net "GND")
 		(layer "B.Cu")
 		(uuid "41969a97-44b8-4c80-bb7a-7fa16f4512a1")
@@ -9257,71 +9234,6 @@
 		)
 	)
 	(zone
-		(net "/AC_OUT_2")
-		(layer "B.Cu")
-		(hatch none 0.1)
-		(priority 30001)
-		(attr
-			(teardrop
-				(type track_end)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 142.1261 94.839901) (xy 142.8761 94.839901) (xy 143.5011 93.302486) (xy 142.5011 92.638901)
-				(xy 141.5011 93.302486)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 142.507566 92.643191) (xy 143.493126 93.297195) (xy 143.498125 93.304624) (xy 143.497496 93.311349)
-				(xy 142.879065 94.832607) (xy 142.872774 94.838981) (xy 142.868226 94.839901) (xy 142.133974 94.839901)
-				(xy 142.125701 94.836474) (xy 142.123135 94.832607) (xy 141.504703 93.311349) (xy 141.504762 93.302395)
-				(xy 141.50907 93.297196) (xy 142.494632 92.643192) (xy 142.503419 92.641474)
-			)
-		)
-	)
-	(zone
-		(net "/AC_OUT_1")
-		(layer "B.Cu")
-		(hatch none 0.1)
-		(priority 30000)
-		(attr
-			(teardrop
-				(type track_end)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 153.425 94.839901) (xy 154.175 94.839901) (xy 154.8 93.302486) (xy 153.8 92.638901) (xy 152.8 93.302486)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 153.806466 92.643191) (xy 154.792026 93.297195) (xy 154.797025 93.304624) (xy 154.796396 93.311349)
-				(xy 154.177965 94.832607) (xy 154.171674 94.838981) (xy 154.167126 94.839901) (xy 153.432874 94.839901)
-				(xy 153.424601 94.836474) (xy 153.422035 94.832607) (xy 152.803603 93.311349) (xy 152.803662 93.302395)
-				(xy 152.80797 93.297196) (xy 153.793532 92.643192) (xy 153.802319 92.641474)
-			)
-		)
-	)
-	(zone
 		(net "/AC_CURRENT_SENSE")
 		(layer "B.Cu")
 		(hatch none 0.1)
@@ -9355,10 +9267,10 @@
 		)
 	)
 	(zone
-		(net "/AC_OUT_1")
+		(net "/AC_CURRENT_SENSE")
 		(layer "B.Cu")
 		(hatch none 0.1)
-		(priority 30002)
+		(priority 30005)
 		(attr
 			(teardrop
 				(type track_end)
@@ -9373,49 +9285,17 @@
 		)
 		(polygon
 			(pts
-				(xy 153.425 94.839901) (xy 154.175 94.839901) (xy 154.8 93.302486) (xy 153.8 92.638901) (xy 152.8 93.302486)
+				(xy 149.103371 104.825) (xy 149.103371 105.575) (xy 150.296801 105.869858) (xy 150.504371 105.2)
+				(xy 150.296801 104.530142)
 			)
 		)
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 153.806466 92.643191) (xy 154.792026 93.297195) (xy 154.797025 93.304624) (xy 154.796396 93.311349)
-				(xy 154.177965 94.832607) (xy 154.171674 94.838981) (xy 154.167126 94.839901) (xy 153.432874 94.839901)
-				(xy 153.424601 94.836474) (xy 153.422035 94.832607) (xy 152.803603 93.311349) (xy 152.803662 93.302395)
-				(xy 152.80797 93.297196) (xy 153.793532 92.643192) (xy 153.802319 92.641474)
-			)
-		)
-	)
-	(zone
-		(net "/AC_OUT_2")
-		(layer "B.Cu")
-		(hatch none 0.1)
-		(priority 30003)
-		(attr
-			(teardrop
-				(type track_end)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 142.1261 94.839901) (xy 142.8761 94.839901) (xy 143.5011 93.302486) (xy 142.5011 92.638901)
-				(xy 141.5011 93.302486)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 142.507566 92.643191) (xy 143.493126 93.297195) (xy 143.498125 93.304624) (xy 143.497496 93.311349)
-				(xy 142.879065 94.832607) (xy 142.872774 94.838981) (xy 142.868226 94.839901) (xy 142.133974 94.839901)
-				(xy 142.125701 94.836474) (xy 142.123135 94.832607) (xy 141.504703 93.311349) (xy 141.504762 93.302395)
-				(xy 141.50907 93.297196) (xy 142.494632 92.643192) (xy 142.503419 92.641474)
+				(xy 150.294938 104.534131) (xy 150.300067 104.540684) (xy 150.503297 105.196537) (xy 150.503297 105.203463)
+				(xy 150.300067 105.859315) (xy 150.294345 105.866203) (xy 150.286085 105.86721) (xy 149.112265 105.577197)
+				(xy 149.105055 105.571886) (xy 149.103371 105.565839) (xy 149.103371 104.83416) (xy 149.106798 104.825887)
+				(xy 149.112263 104.822803) (xy 150.286086 104.532789)
 			)
 		)
 	)
