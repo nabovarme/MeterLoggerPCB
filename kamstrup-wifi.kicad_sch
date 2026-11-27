@@ -157,14 +157,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sensor_Current:ACS725xLCTR-20AB"
+		(symbol "Sensor_Current:ACS722xLCTR-05AB"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 2.54 11.43 0)
+			(property "Reference" "U2"
+				(at 2.1433 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -174,8 +174,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "ACS725xLCTR-20AB"
-				(at 2.54 8.89 0)
+			(property "Value" "ACS722LLCTR-05AB-T"
+				(at 2.1433 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -198,7 +198,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/ACS725-Datasheet.ashx?la=en"
+			(property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx?la=en"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -209,7 +209,7 @@
 					)
 				)
 			)
-			(property "Description" "±20A Bidirectional Hall-Effect Current Sensor, +3.3V supply, 66mV/A, SOIC-8"
+			(property "Description" "±5A Bidirectional Hall-Effect Current Sensor, +3.3V supply, 264mV/A, SOIC-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -231,7 +231,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9m*P1.27mm*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -242,7 +242,7 @@
 					)
 				)
 			)
-			(symbol "ACS725xLCTR-20AB_0_1"
+			(symbol "ACS722xLCTR-05AB_0_1"
 				(rectangle
 					(start -7.62 7.62)
 					(end 7.62 -7.62)
@@ -255,7 +255,7 @@
 					)
 				)
 			)
-			(symbol "ACS725xLCTR-20AB_1_1"
+			(symbol "ACS722xLCTR-05AB_1_1"
 				(pin passive line
 					(at -10.16 5.08 0)
 					(length 2.54)
@@ -294,7 +294,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -5.08 0)
+					(at -10.16 -2.54 0)
 					(length 2.54)
 					(name "IP-"
 						(effects
@@ -312,7 +312,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -5.08 0)
+					(at -10.16 -2.54 0)
 					(length 2.54)
 					(hide yes)
 					(name "IP-"
@@ -348,10 +348,10 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at 10.16 -2.54 180)
 					(length 2.54)
-					(name "FILTER"
+					(name "BW_SEL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -367,7 +367,7 @@
 					)
 				)
 				(pin output line
-					(at 10.16 0 180)
+					(at 10.16 5.08 180)
 					(length 2.54)
 					(name "VIOUT"
 						(effects
@@ -3470,6 +3470,12 @@
 		(uuid "1aa07281-1ce8-49c8-9934-62aa40ea50f2")
 	)
 	(junction
+		(at 228.6 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23a3661b-2d4c-498d-9fa2-a03f20d5efd4")
+	)
+	(junction
 		(at 212.09 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3480,12 +3486,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d1637dd-a444-40c1-b3a7-45b85825e836")
-	)
-	(junction
-		(at 228.6 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59019f8f-6df9-48fd-9fdc-cf6b21a71ea3")
 	)
 	(junction
 		(at 139.7 160.02)
@@ -3733,16 +3733,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 189.23) (xy 160.02 133.35)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "24a1a573-06e6-4ee7-b3ad-f6ddc25b9977")
-	)
-	(wire
-		(pts
 			(xy 76.2 40.64) (xy 76.2 20.32)
 		)
 		(stroke
@@ -3853,16 +3843,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 133.35) (xy 175.26 133.35)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3f767207-03f9-4d12-ae91-8bac36cb971a")
-	)
-	(wire
-		(pts
 			(xy 26.67 105.41) (xy 26.67 129.54)
 		)
 		(stroke
@@ -3940,6 +3920,16 @@
 			(type solid)
 		)
 		(uuid "58c89c70-2e15-4f8f-b650-f6ff6e24d51d")
+	)
+	(wire
+		(pts
+			(xy 160.02 130.81) (xy 175.26 130.81)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5ae91afd-0270-401e-8f35-e5bd0a4a9549")
 	)
 	(wire
 		(pts
@@ -4113,13 +4103,23 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 138.43) (xy 213.36 140.97)
+			(xy 213.36 130.81) (xy 213.36 140.97)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "72bf1c3b-6c72-44bd-9e99-49266a226b35")
+	)
+	(wire
+		(pts
+			(xy 160.02 130.81) (xy 160.02 189.23)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "77680a68-6cd2-42ed-8488-f697073cfbf4")
 	)
 	(wire
 		(pts
@@ -4413,16 +4413,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 130.81) (xy 213.36 133.35)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "cca48f5c-7db1-4b66-a74b-49fc879960db")
-	)
-	(wire
-		(pts
 			(xy 74.93 180.34) (xy 72.39 180.34)
 		)
 		(stroke
@@ -4483,13 +4473,23 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 128.27) (xy 218.44 128.27)
+			(xy 195.58 123.19) (xy 218.44 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e8f96677-a28a-4e35-b128-226129f2f9de")
+	)
+	(wire
+		(pts
+			(xy 228.6 123.19) (xy 228.6 130.81)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ecd1ced2-2160-4c58-a317-50371ab339ed")
 	)
 	(wire
 		(pts
@@ -4523,16 +4523,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 115.57) (xy 199.39 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f60fbdb0-c431-4847-b2e8-d81e31e38252")
-	)
-	(wire
-		(pts
 			(xy 50.8 40.64) (xy 50.8 20.32)
 		)
 		(stroke
@@ -4543,7 +4533,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 90.17) (xy 228.6 128.27)
+			(xy 228.6 90.17) (xy 228.6 123.19)
 		)
 		(stroke
 			(width 0.1524)
@@ -4553,7 +4543,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 115.57) (xy 199.39 115.57)
+			(xy 195.58 115.57) (xy 212.09 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4590,16 +4580,6 @@
 			(type solid)
 		)
 		(uuid "fe4c3a2b-a583-48dc-b621-7eedf5eb2d71")
-	)
-	(wire
-		(pts
-			(xy 228.6 128.27) (xy 228.6 130.81)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ff48c84a-562c-432d-b0da-d54faea83a20")
 	)
 	(label "VIOUT"
 		(at 207.01 128.27 0)
@@ -5613,107 +5593,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Sensor_Current:ACS725xLCTR-20AB")
-		(at 185.42 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "354d3ff8-3e8d-478b-8c11-7160749f96ce")
-		(property "Reference" "U2"
-			(at 177.8 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "ACS722LLCTR-05AB-T"
-			(at 177.8 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 187.96 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/ACS725-Datasheet.ashx?la=en"
-			(at 185.42 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "±20A Bidirectional Hall-Effect Current Sensor, +3.3V supply, 66mV/A, SOIC-8"
-			(at 185.42 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5d485d75-b8bb-4db7-96a0-c33396000cd6")
-		)
-		(pin "2"
-			(uuid "4a8035dd-0b61-4440-bbd0-41121f55f3d4")
-		)
-		(pin "3"
-			(uuid "d44e6c6d-7adb-40cf-b2c8-4c9d5aca6aed")
-		)
-		(pin "4"
-			(uuid "c7537a7b-25ca-44de-a3e4-b21a9c6be69e")
-		)
-		(pin "5"
-			(uuid "15971806-4aa5-4113-ba0b-9e978558d2c9")
-		)
-		(pin "6"
-			(uuid "367fa551-41ef-4026-8cb3-ab63db648ed3")
-		)
-		(pin "7"
-			(uuid "bc80c183-bd70-49cc-b82b-0e6c1dc5181d")
-		)
-		(pin "8"
-			(uuid "c6c4697a-2491-4d53-9116-23084dd82ec8")
-		)
-		(instances
-			(project "kamstrup-wifi"
-				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "kamstrup-wifi-eagle-import:R-EU_R0805")
 		(at 236.22 62.23 90)
 		(unit 1)
@@ -6488,7 +6367,7 @@
 	)
 	(symbol
 		(lib_id "kamstrup-wifi-eagle-import:GND")
-		(at 199.39 120.65 0)
+		(at 212.09 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6498,7 +6377,7 @@
 		(dnp no)
 		(uuid "6f5a2eaf-fc2c-451b-b690-0da852444ac8")
 		(property "Reference" "#GND9"
-			(at 199.39 120.65 0)
+			(at 212.09 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6509,7 +6388,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.85 123.19 0)
+			(at 209.55 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6520,7 +6399,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 120.65 0)
+			(at 212.09 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6531,7 +6410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 120.65 0)
+			(at 212.09 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6542,7 +6421,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 120.65 0)
+			(at 212.09 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6881,7 +6760,7 @@
 	)
 	(symbol
 		(lib_id "kamstrup-wifi-eagle-import:R-EU_R0805")
-		(at 223.52 128.27 0)
+		(at 223.52 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6891,7 +6770,7 @@
 		(dnp no)
 		(uuid "8fab14c4-c67c-4ed8-8fc3-d331de11d87e")
 		(property "Reference" "R10"
-			(at 220.22 126.49 0)
+			(at 220.22 121.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6902,7 +6781,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 220.22 131.32 0)
+			(at 220.22 126.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6913,7 +6792,7 @@
 			)
 		)
 		(property "Footprint" "kamstrup-wifi-import-fps:R0805"
-			(at 223.52 128.27 0)
+			(at 223.52 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6924,7 +6803,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 128.27 0)
+			(at 223.52 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6935,7 +6814,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 128.27 0)
+			(at 223.52 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7111,6 +6990,108 @@
 			(project "kamstrup-wifi"
 				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
 					(reference "#GND3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Current:ACS722xLCTR-05AB")
+		(at 185.42 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bcbc012-ebee-465c-be8a-c56ae9c020f7")
+		(property "Reference" "U2"
+			(at 187.5633 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ACS722LLCTR-05AB-T"
+			(at 187.5633 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 187.96 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/ACS722-Datasheet.ashx?la=en"
+			(at 185.42 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "±5A Bidirectional Hall-Effect Current Sensor, +3.3V supply, 264mV/A, SOIC-8"
+			(at 185.42 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61ac2c51-7945-4ef0-8a74-c53d1bcc6757")
+		)
+		(pin "2"
+			(uuid "add00a72-04cd-4f26-a488-3fe2d26f0130")
+		)
+		(pin "3"
+			(uuid "097a4e2c-c4b4-4818-8949-9f35b473ceff")
+		)
+		(pin "4"
+			(uuid "e2d7b472-c324-458a-8585-7eca6e057892")
+		)
+		(pin "8"
+			(uuid "600a50eb-58ca-4272-b0ff-f5ddb8dc1b75")
+		)
+		(pin "6"
+			(uuid "d81eb013-ffc0-45ed-8e35-9791ae67e96f")
+		)
+		(pin "7"
+			(uuid "31636971-6beb-4dc0-8323-e03717fcbc3c")
+		)
+		(pin "5"
+			(uuid "71be70bf-3624-43c5-952b-dc003ffc6a15")
+		)
+		(instances
+			(project "kamstrup-wifi"
+				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8046,87 +8027,6 @@
 			(project "kamstrup-wifi"
 				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
 					(reference "OK2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kamstrup-wifi-eagle-import:C-EU_C0805")
-		(at 213.36 135.89 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "da884b1a-a7ae-445f-bde0-1963e1fb3e78")
-		(property "Reference" "C2"
-			(at 215.14 134.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1nF"
-			(at 215.14 137.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "kamstrup-wifi-import-fps:R0805"
-			(at 213.36 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ad6d55e7-2bad-4552-a685-682e749087b1")
-		)
-		(pin "2"
-			(uuid "3aff6879-63cc-4e69-965d-e3b552ab34b1")
-		)
-		(instances
-			(project "kamstrup-wifi"
-				(path "/b8d6bd9c-8b75-4ac6-aab5-287da5fc0a08"
-					(reference "C2")
 					(unit 1)
 				)
 			)
